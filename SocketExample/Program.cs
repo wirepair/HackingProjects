@@ -7,6 +7,10 @@ using System.Text;
 using System.Threading;
 using SocketService;
 
+// author @_wirepair : github.com/wirepair
+// date: 03172013 
+// copyright: ME AND MINE but i guess you can use it :D.
+
 namespace ClientSocketExample
 {
     class UCS : UDPClientService

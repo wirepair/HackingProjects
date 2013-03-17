@@ -6,6 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
+// author @_wirepair : github.com/wirepair
+// date: 03172013 
+// copyright: ME AND MINE but i guess you can use it :D.
+
 namespace SocketService
 {
     // State object for reading client data asynchronously
