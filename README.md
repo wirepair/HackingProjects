@@ -5,7 +5,7 @@ A collection of C# projects I created for various hacking/re'ing activies.
 
 Options 
 ===============
-- Written by someone else, but i use a lot for parsing arguments.
+- Written by someone else, but I use it a lot for parsing arguments.
 
 ServiceInstaller 
 ===============
