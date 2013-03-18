@@ -19,6 +19,10 @@ SocketService
 ===============
 - An Async UDP Client & Server implementation written by me.
 
+DLLManage
+===============
+- Simple class to aid in loading functions from C via LoadLibrary and GetProcAddress
+
 ServerSocketExample 
 ===============
 - Example of using the Async UDP Server
