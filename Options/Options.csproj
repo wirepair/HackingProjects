@@ -56,4 +56,7 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <PropertyGroup>
+    <PostBuildEvent>copy C:\GitHub\HackingProjects\Options\bin\Debug\Options.dll C:\GitHub\Libraries\Options.dll</PostBuildEvent>
+  </PropertyGroup>
 </Project>

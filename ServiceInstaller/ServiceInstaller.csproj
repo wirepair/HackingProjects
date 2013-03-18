@@ -56,4 +56,7 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <PropertyGroup>
+    <PostBuildEvent>copy C:\GitHub\HackingProjects\ServiceInstaller\bin\Debug\ServiceInstaller.dll C:\GitHub\Libraries\ServiceInstaller.dll</PostBuildEvent>
+  </PropertyGroup>
 </Project>
