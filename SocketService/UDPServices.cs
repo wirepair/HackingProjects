@@ -84,6 +84,7 @@ namespace SocketService
         }
         public void SendData(StateObject sendState, AsyncCallback callback)
         {
+            
             sendState.workSocket.BeginSendTo(sendState.buffer, 0, sendState.buffer.Length, SocketFlags.None, sendState.endPoint, callback, sendState);
         }
 
