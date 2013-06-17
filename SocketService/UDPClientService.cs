@@ -63,8 +63,8 @@ namespace SocketService
             StateObject newso = new StateObject();
             newso.endPoint = remoteEp;
             newso.workSocket = so.workSocket;
-            while (true)
-            {
+            //while (true)
+            //{
                 allDone.Reset();
                 IAsyncResult result = newso.workSocket.BeginReceiveFrom(newso.buffer,
                     0,
@@ -73,7 +73,7 @@ namespace SocketService
                     ref remoteEp,
                     new AsyncCallback(this.OnReceive), newso);
                 allDone.WaitOne();
-            }
+            //}
         }
         #endregion
     }
